@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #18467A;
+}
+
+.container {
+	height: 80vh;
+	width: 100%;
+}
+
+h1 {
+	font-size: 4em;
+	color: #74AFF2;
+	margin: 5px 0px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #;
+}
+
+h3 {
+	/*border: 2px solid black;*/
+	padding: 10px;
+	font-size: 5em;
+	color: #375373;
+}
+
+h4 {
+	font-size: 2em;
+	color: #fff;
+	margin: 5px 0px;
+	text-transform: uppercase;
+}
+
+#play-again {
+	width: 100%;
+}
+
+#check-guess, #play-again {
+	background-color: #74AFF2;
+	border: none;
+	color: white;
+	font-size: 1.3em;
+	padding: 12px 15px;
+	text-transform: uppercase;
+	transition: ease .3s;
+}
+
+#check-guess:hover, #play-again:hover {
+	background-color: #5E8EC4;
+}
+
+#guessed-number {
+	font-size: 13em;
+	margin: 25px 0px;
+}
+
+#last-guess {
+	margin: 10px 0px;
+	color: #375373;
+	background: none;
+	border: none;
+	font-size: 7em;
+}
+
+input{
+   text-align:center;
+   position: relative;
+   width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #375373;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #375373;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #375373;
+}
+
+#score, #guess-action, #highscore {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.current-round {
+	background-color: #BFD8F4;
+	padding: 12px 7px;
+	max-width: 600px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.left-side, .right-side {
+	width: 42%;
+	display: inline-block;
+	margin: 0px 18px;
+}
